@@ -1,0 +1,295 @@
+.home_body{
+    /* background-color: rgb(22, 18, 41); */
+    /* background: #20334e;
+    background: -webkit-linear-gradient(90deg, #20334e 0%, #171b2a 100%);
+    background: linear-gradient(90deg, #20334e 0%, #171b2a 100%); */
+    font-family: 'Doppio One', sans-serif;
+    background: #272965;
+background: -webkit-linear-gradient(90deg, #272965 0%, #141852 50%, #060a2c 100%);
+background: linear-gradient(90deg, #272965 0%, #141852 50%, #060a2c 100%);
+    color: white;
+}
+
+#name1,#name2{font-family: 'Titillium Web', sans-serif;}
+
+#name2{margin:0; font-size: clamp(14px,2.1vw,30px);}
+
+#name1{margin:0;font-size: clamp(18px,2.5vw,60px)}
+
+.home_head{ text-align: center;
+    text-shadow: 3px 3px 4px black;}
+
+.t-logo{
+    height: 5vw;
+    width: 5vw;
+    float: left; 
+}
+
+.head_heading{
+    padding: 4vw 9vw;
+    text-align: left;
+}
+
+.head_text{
+    font-size: clamp(30px,6.5vw,100px);
+    line-height: 1; 
+    padding: 5vmin 23vw 3vw 23vw;
+}
+.world{
+    color: rgb(66, 184, 253);
+    display: inline;
+}
+
+.company_name,.v_name,.i_name,.airtel_name,.jio_name{
+    font-size: 4.6vw;
+    padding-bottom: 6vw;
+    text-shadow: 3px 3px 4px black;
+}
+
+.v_name{color: red;font-weight: bolder;}
+
+.i_name{color: yellow;font-weight: bold;}
+
+.airtel_name{
+    color: red;
+    font-weight: bolder;
+}
+
+.jio_name{
+    /* color: rgb(0, 74, 152); */
+    color: rgb(66, 184, 253);
+    font-weight: bolder;
+}
+
+@media screen and (max-width:480px){
+    .go{height: 5vw !important;font-size: 2.5vw !important;padding: 0px 1vw !important;}
+    .company_name{font-size: 1.5rem!important;}
+    .below_phn{text-align: center;}
+    .cnct-img{margin-top: 7vw;}
+    .S-btn{font-size: 2vw!important;}
+    .left-plan-col{padding-top: 0!important;padding-bottom: 8vw;}
+    .btn-success{padding: 0.5vw 1.5vw!important;font-size: clamp(9px,1rem,30px)!important;}
+    .pack-card-benefit{height: 3vw
+        ;}
+}
+
+.go{
+    height: 3vw;
+    position: absolute;
+    top: 1.5vw;
+    margin-left: 2% ;
+}
+
+.p_data{font-size: 2vw; margin: 0.8vw;}
+
+.phone{
+    padding: 2% 0 2.5vw 4%;
+    width: 12vw;
+}
+
+.home_col{text-align: center;}
+
+.plan_h{
+    color: rgb(66, 184, 253);
+    font-size: 2vw;
+    margin: 7vw 0 1vw 0;
+}
+
+.phone_btn{
+    background-color: rgb(49, 66, 66)!important;
+    color: white!important;
+    padding: 1vmin 2.5vmin!important;
+    font-size: 130%!important;
+}
+.phone_btn:hover{
+    color: black!important;
+    background-color: #fff!important;
+}
+
+.row{
+    padding: 0 14%;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.data{margin: 19vw 0;}
+
+.fb{
+    height: 33vw;
+    width: 33vw;
+    margin-left: 2vw;
+}
+
+.data-col{position: relative;}
+
+.graph{
+    height: 10vw;
+    width: 10vw;
+    float: left;
+    margin-right: 3vw;
+}
+
+.qty{
+    color: rgb(66, 184, 253);
+    font-size: 3vw;
+    margin-bottom: 0;
+    padding-top: 2vw;
+}
+
+.qty-name{font-size: 1vw;}
+
+.data-div{
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+}
+
+.tower{
+    height: 30vw;
+    width: 27vw;
+    float: left;
+    padding-right: 4.5vw;
+}
+
+.tower-col{
+    text-align: left;
+}
+
+.intro{margin-bottom: 19vw;}
+
+.intro_head{font-weight: bold;
+    font-size: 2.5vw;
+    margin-bottom: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.intro_body{font-size: 1.7vw;font-family: 'Titillium Web', sans-serif;}
+
+.cnct-img{
+    height: 37vw;
+    width: 29vw;
+    margin-left: 2vw;
+}
+
+.contacts{
+    padding-top: 5vw;
+}
+
+.cnct-heading{
+    font-size: 4.1vw;
+    text-align: left; 
+}
+
+.cnct-h{
+    font-size: 2vw;
+    text-align: left;
+    margin: 4vw 0 0 0;
+    color: rgb(66, 184, 253);
+}
+
+.cnct-col{
+    text-align: left;
+}
+
+a:link,a:visited{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+
+.media{
+    text-align: center;
+    margin: 5vw 0 1.5vw 0;
+}
+
+.media-i{
+    margin-left: 3vw;
+}
+/* new code starts*/
+
+.home_airtel,.home_jio,.home_vi{margin-top: 15vw;}
+
+.left-plan-col{
+    font-size: clamp(17px,4.1vw,80px);
+    text-align: center;
+    padding-top: 20%;
+}
+
+.plans-row{padding-left: 5vw;padding-right: 5vw;}
+
+.tab{
+    overflow: auto;
+    border: 1px solid #ccc;
+    background-color: #a4a1a17a;
+    display: flex;
+    cursor: pointer;
+    -webkit-font-smoothing: auto;
+    min-height: 40px;
+    box-shadow: 3px 3px 4px black;
+}
+
+.tab-a{min-height: 40px;}
+
+.tab button {
+    background: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: clamp(8px,2vw,18px);
+    transition: 0.3s;
+    color: white;
+
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.plan-section{
+    overflow: auto;
+    height: clamp(370px,180vw,620px);
+    margin-top: 10px;
+}
+
+.pack-card-container{
+    /* background-color: rgb(43, 43, 120); */
+    background-color: midnightblue;
+    padding: 1.6vmin;
+    margin-bottom: 10px;
+    width: 100%;
+    height: clamp(120px,17vw,160px);
+    box-shadow: 3px 3px 4px black;
+}
+
+.pack-card-sub-heading{font-size: clamp(8px,0.7vw,14px);}
+
+.pack-card-heading{
+    font-size: clamp(12px,1.2vw,18px);
+    margin-bottom: 4px;
+}
+
+.pack-card-detail{margin: 1px;}
+
+.pack-card-left-section{flex: 1 1;}
+
+.pack-card-benefits-heading{font-size: clamp(9px,0.9vw,16px);margin-bottom: 1vmin;}
+
+.pack-card-detail{flex: 0.33 1;}
+
+.pack-card-content,.pack-card-details,.pack-card-container{
+    display: flex;
+    flex: 1 1;
+}
+
+.pack-card-benefits,.pack-card-benefit{
+    display: flex;
+    flex: 0.5 1;
+}
+
+/* new code ends */
